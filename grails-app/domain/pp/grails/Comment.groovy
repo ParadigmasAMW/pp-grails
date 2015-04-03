@@ -1,9 +1,15 @@
 package pp.grails
 
-class Comment {
+class Comment implements Comparable {
 
-	static belongsTo = Post
+    static belongsTo = Post
 
-    static constraints = {
+    Post post
+    String comment
+    Commentator who = new Commentator()
+    Date dateCreated
+
+    public int compareTo(Object o) {
+        return dateCreated.compareTo(o.dateCreated)
     }
-}
+} 
