@@ -4,7 +4,7 @@ class Post {
 
 	static hasMany = [comments:Comment]
 
-	User author
+	// User author
 	Date dateTime
 	String title
 	String teaser

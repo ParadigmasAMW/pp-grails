@@ -7,7 +7,7 @@
   <h1>Meus posts</h1>
 
   <g:link controller="post" action="edit">
-    Create a new post
+    Crie um novo post para o Blog
   </g:link>
   
   
@@ -15,13 +15,13 @@
   <g:each in="${posts}" var="post">
       <div>
 		  <g:link controller="post" action="edit" id="${post.id}">
-		    Edit this post
+		    Clique aqui para editar este post
 		  </g:link>
           <h2>${post.title}</h2>
           <p>${post.teaser}</p>
           <p>Last Updated: ${post.dateTime}</p>
 		  <g:link controller="post" action="view" id="${post.id}">
-			View this post
+			Visualização do post
 		  </g:link>
       </div>
   </g:each>

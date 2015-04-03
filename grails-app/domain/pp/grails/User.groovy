@@ -12,8 +12,4 @@ class User {
     	username (blanck: false, unique: true)
     	password (blanck: false)
     }
-
-    static mapping = {
-    	password column: '`password`'
-    }
 }
