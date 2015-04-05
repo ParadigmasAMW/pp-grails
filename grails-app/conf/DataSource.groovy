@@ -1,8 +1,8 @@
 dataSource {
     pooled = true
     driverClassName = "com.mysql.jdbc.Driver"
-    username = ""
-    password = ""
+    username = "root"
+    password = "root"
 }
 hibernate {
     cache.use_second_level_cache = true
@@ -19,24 +19,24 @@ environments {
         dataSource {
             dbCreate = "create-drop" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost/pp_grails?useUnicode=yes&characterEncoding=UTF-8"
-            username = ""
-            password = ""
+            username = "root"
+            password = "root"
         }
     }
     test {
         dataSource {
             dbCreate = "update"
             url = "jdbc:mysql://localhost/pp_grails_prod?useUnicode=yes&characterEncoding=UTF-8"
-            username = ""
-            password = ""
+            username = "root"
+            password = "root"
         }
     }
     production {
         dataSource {
             dbCreate = "update"
             url = "jdbc:mysql://localhost/pp_grails_prod?useUnicode=yes&characterEncoding=UTF-8"
-            username = ""
-            password = ""          
+            username = "root"
+            password = "root"          
         }
     }
 }
