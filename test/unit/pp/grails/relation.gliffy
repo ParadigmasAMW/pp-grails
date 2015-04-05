@@ -1,0 +1,1370 @@
+{
+  "contentType": "application/gliffy+json",
+  "version": "1.3",
+  "metadata": {
+    "title": "untitled",
+    "revision": 0,
+    "exportBorder": false,
+    "loadPosition": "default",
+    "libraries": [
+      "com.gliffy.libraries.erd.erd_v1.default",
+      "com.gliffy.libraries.basic.basic_v1.default",
+      "com.gliffy.libraries.images"
+    ],
+    "autosaveDisabled": false,
+    "lastSerialized": 1428247517709
+  },
+  "embeddedResources": {
+    "index": 0,
+    "resources": []
+  },
+  "stage": {
+    "objects": [
+      {
+        "x": 382,
+        "y": 347,
+        "rotation": 0,
+        "id": 208,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.many_many",
+        "width": 100,
+        "height": 100,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 208,
+        "hidden": false,
+        "graphic": {
+          "type": "Line",
+          "Line": {
+            "strokeWidth": 1,
+            "strokeColor": "#000000",
+            "fillColor": "none",
+            "dashStyle": null,
+            "startArrow": 14,
+            "endArrow": 14,
+            "startArrowRotation": "auto",
+            "endArrowRotation": "auto",
+            "ortho": true,
+            "interpolationType": "linear",
+            "cornerRadius": null,
+            "controlPath": [
+              [
+                10.5,
+                -20
+              ],
+              [
+                10.5,
+                1.0026453360311507
+              ],
+              [
+                10.5,
+                22.0052906720623
+              ],
+              [
+                10.5,
+                43.00793600809345
+              ]
+            ],
+            "lockSegments": {}
+          }
+        },
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 209,
+            "uid": null,
+            "width": 27,
+            "height": 14,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Text",
+              "Text": {
+                "tid": null,
+                "valign": "middle",
+                "overflow": "both",
+                "vposition": "none",
+                "hposition": "none",
+                "html": "<p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px;\"><span style=\"line-height: 14px;\" class=\"\">Has <br></span></span></p>",
+                "paddingLeft": 2,
+                "paddingRight": 2,
+                "paddingBottom": 2,
+                "paddingTop": 2,
+                "outerPaddingLeft": 6,
+                "outerPaddingRight": 6,
+                "outerPaddingBottom": 2,
+                "outerPaddingTop": 6,
+                "lineTValue": 0.4545161091530907
+              }
+            },
+            "children": null
+          }
+        ],
+        "constraints": {
+          "constraints": [],
+          "startConstraint": {
+            "type": "StartPositionConstraint",
+            "StartPositionConstraint": {
+              "nodeId": 2,
+              "px": 0.5,
+              "py": 1
+            }
+          },
+          "endConstraint": {
+            "type": "EndPositionConstraint",
+            "EndPositionConstraint": {
+              "nodeId": 8,
+              "px": 0.5,
+              "py": 0
+            }
+          }
+        },
+        "linkMap": []
+      },
+      {
+        "x": 454,
+        "y": 102,
+        "rotation": 0,
+        "id": 206,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.many_many",
+        "width": 100,
+        "height": 100,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 206,
+        "hidden": false,
+        "graphic": {
+          "type": "Line",
+          "Line": {
+            "strokeWidth": 1,
+            "strokeColor": "#000000",
+            "fillColor": "none",
+            "dashStyle": null,
+            "startArrow": 14,
+            "endArrow": 14,
+            "startArrowRotation": "auto",
+            "endArrowRotation": "auto",
+            "ortho": true,
+            "interpolationType": "linear",
+            "cornerRadius": null,
+            "controlPath": [
+              [
+                -7,
+                17
+              ],
+              [
+                85,
+                17
+              ],
+              [
+                85,
+                330
+              ],
+              [
+                -1,
+                330
+              ]
+            ],
+            "lockSegments": {
+              "1": true
+            }
+          }
+        },
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 207,
+            "uid": null,
+            "width": 81,
+            "height": 14,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Text",
+              "Text": {
+                "tid": null,
+                "valign": "middle",
+                "overflow": "both",
+                "vposition": "none",
+                "hposition": "none",
+                "html": "<p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px;\"><span style=\"line-height: 14px;\" class=\"\">Comments on<br></span></span></p>",
+                "paddingLeft": 2,
+                "paddingRight": 2,
+                "paddingBottom": 2,
+                "paddingTop": 2,
+                "outerPaddingLeft": 6,
+                "outerPaddingRight": 6,
+                "outerPaddingBottom": 2,
+                "outerPaddingTop": 6,
+                "lineTValue": 0.5004945598417408
+              }
+            },
+            "children": null
+          }
+        ],
+        "constraints": {
+          "constraints": [],
+          "startConstraint": {
+            "type": "StartPositionConstraint",
+            "StartPositionConstraint": {
+              "nodeId": 1,
+              "px": 1,
+              "py": 0.5
+            }
+          },
+          "endConstraint": {
+            "type": "EndPositionConstraint",
+            "EndPositionConstraint": {
+              "nodeId": 8,
+              "px": 1,
+              "py": 0.5
+            }
+          }
+        },
+        "linkMap": []
+      },
+      {
+        "x": 172,
+        "y": 272,
+        "rotation": 0,
+        "id": 203,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.many_many",
+        "width": 100,
+        "height": 100,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 203,
+        "hidden": false,
+        "graphic": {
+          "type": "Line",
+          "Line": {
+            "strokeWidth": 1,
+            "strokeColor": "#000000",
+            "fillColor": "none",
+            "dashStyle": null,
+            "startArrow": 14,
+            "endArrow": 14,
+            "startArrowRotation": "auto",
+            "endArrowRotation": "auto",
+            "ortho": true,
+            "interpolationType": "linear",
+            "cornerRadius": null,
+            "controlPath": [
+              [
+                -32,
+                0
+              ],
+              [
+                32.35491865860416,
+                0
+              ],
+              [
+                96.70983731720833,
+                0
+              ],
+              [
+                161.06475597581243,
+                0
+              ]
+            ],
+            "lockSegments": {}
+          }
+        },
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 205,
+            "uid": null,
+            "width": 81,
+            "height": 14,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Text",
+              "Text": {
+                "tid": null,
+                "valign": "middle",
+                "overflow": "both",
+                "vposition": "none",
+                "hposition": "none",
+                "html": "<p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px;\"><span style=\"line-height: 14px;\" class=\"\">Comments on<br></span></span></p>",
+                "paddingLeft": 2,
+                "paddingRight": 2,
+                "paddingBottom": 2,
+                "paddingTop": 2,
+                "outerPaddingLeft": 6,
+                "outerPaddingRight": 6,
+                "outerPaddingBottom": 2,
+                "outerPaddingTop": 6,
+                "lineTValue": 0.4573093826206312
+              }
+            },
+            "children": null
+          }
+        ],
+        "constraints": {
+          "constraints": [],
+          "startConstraint": {
+            "type": "StartPositionConstraint",
+            "StartPositionConstraint": {
+              "nodeId": 3,
+              "px": 1,
+              "py": 0.5
+            }
+          },
+          "endConstraint": {
+            "type": "EndPositionConstraint",
+            "EndPositionConstraint": {
+              "nodeId": 2,
+              "px": 0,
+              "py": 0.5
+            }
+          }
+        },
+        "linkMap": []
+      },
+      {
+        "x": 360,
+        "y": 193,
+        "rotation": 0,
+        "id": 201,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.one_mandatory_many_optional",
+        "width": 100,
+        "height": 100,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 201,
+        "hidden": false,
+        "graphic": {
+          "type": "Line",
+          "Line": {
+            "strokeWidth": 1,
+            "strokeColor": "#000000",
+            "fillColor": "none",
+            "dashStyle": null,
+            "startArrow": 11,
+            "endArrow": 9,
+            "startArrowRotation": "auto",
+            "endArrowRotation": "auto",
+            "ortho": true,
+            "interpolationType": "linear",
+            "cornerRadius": null,
+            "controlPath": [
+              [
+                27.5,
+                -17
+              ],
+              [
+                27.5,
+                0.08150396709194752
+              ],
+              [
+                27.5,
+                17.163007934183867
+              ],
+              [
+                27.5,
+                34.244511901275814
+              ]
+            ],
+            "lockSegments": {}
+          }
+        },
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 202,
+            "uid": null,
+            "width": 41,
+            "height": 14,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Text",
+              "Text": {
+                "tid": null,
+                "valign": "middle",
+                "overflow": "both",
+                "vposition": "none",
+                "hposition": "none",
+                "html": "<p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 18px;\"><span style=\"\" class=\"\"><span style=\"font-size: 12px; line-height: 14px;\">Makes</span><br></span></span></p>",
+                "paddingLeft": 2,
+                "paddingRight": 2,
+                "paddingBottom": 2,
+                "paddingTop": 2,
+                "outerPaddingLeft": 6,
+                "outerPaddingRight": 6,
+                "outerPaddingBottom": 2,
+                "outerPaddingTop": 6,
+                "lineTValue": 0.4555502396186982
+              }
+            },
+            "children": null
+          }
+        ],
+        "constraints": {
+          "constraints": [],
+          "startConstraint": {
+            "type": "StartPositionConstraint",
+            "StartPositionConstraint": {
+              "nodeId": 1,
+              "px": 0.5,
+              "py": 1
+            }
+          },
+          "endConstraint": {
+            "type": "EndPositionConstraint",
+            "EndPositionConstraint": {
+              "nodeId": 2,
+              "px": 0.5,
+              "py": 0
+            }
+          }
+        },
+        "linkMap": []
+      },
+      {
+        "x": 328,
+        "y": 62,
+        "rotation": 0,
+        "id": 1,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.entity_with_attributes",
+        "width": 119,
+        "height": 114,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 0,
+        "hidden": false,
+        "graphic": null,
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 168,
+            "uid": null,
+            "width": 120,
+            "height": 18,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#cfe2f3",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1,
+                "y": 0,
+                "rotation": 0,
+                "id": 169,
+                "uid": null,
+                "width": 120,
+                "height": 18,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"font-weight: bold; font-family: Arial; font-size: 12px; line-height: 14px;\">User<br></span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 169,
+                        "magnitude": 1
+                      }
+                    ],
+                    "minHeight": 0,
+                    "growParent": true,
+                    "padding": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "x": 0,
+            "y": 18,
+            "rotation": 0,
+            "id": 170,
+            "uid": null,
+            "width": 120,
+            "height": 96,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#cfe2f3",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1,
+                "y": 0,
+                "rotation": 0,
+                "id": 171,
+                "uid": null,
+                "width": 120,
+                "height": 96,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">username</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">password</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">name</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">e-mail</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">github - nullable</span></p><p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px; line-height: 14px; text-decoration: none;\">&nbsp;</span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 1,
+                        "magnitude": 1
+                      },
+                      {
+                        "id": 168,
+                        "magnitude": -1
+                      }
+                    ],
+                    "minHeight": 20,
+                    "growParent": false,
+                    "padding": 0
+                  }
+                },
+                {
+                  "type": "PositionConstraint",
+                  "PositionConstraint": {
+                    "nodeId": 168,
+                    "px": 0,
+                    "py": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "constraints": {
+          "constraints": [
+            {
+              "type": "HeightConstraint",
+              "HeightConstraint": {
+                "isMin": true,
+                "heightInfo": [
+                  {
+                    "id": 168,
+                    "magnitude": 1
+                  },
+                  {
+                    "id": 171,
+                    "magnitude": 1
+                  }
+                ],
+                "minHeight": 0,
+                "growParent": false,
+                "padding": 0
+              }
+            }
+          ]
+        },
+        "linkMap": []
+      },
+      {
+        "x": 10,
+        "y": 223,
+        "rotation": 0,
+        "id": 3,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.entity_with_attributes",
+        "width": 130,
+        "height": 98,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 10,
+        "hidden": false,
+        "graphic": null,
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 176,
+            "uid": null,
+            "width": 131.0924369747899,
+            "height": 32,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#e2e2e2",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1.0924369747899159,
+                "y": 0,
+                "rotation": 0,
+                "id": 177,
+                "uid": null,
+                "width": 131.0924369747899,
+                "height": 32,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px; line-height: 14px;\">C<span style=\"line-height: 14px;\">ommentator</span></span></p><p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px; text-decoration: none;\"><span style=\"line-height: 14px; text-decoration: none;\">&nbsp;</span></span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 177,
+                        "magnitude": 1
+                      }
+                    ],
+                    "minHeight": 0,
+                    "growParent": true,
+                    "padding": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "x": 0,
+            "y": 32,
+            "rotation": 0,
+            "id": 178,
+            "uid": null,
+            "width": 131.0924369747899,
+            "height": 66,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#e2e2e2",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1.0924369747899159,
+                "y": 0,
+                "rotation": 0,
+                "id": 179,
+                "uid": null,
+                "width": 131.0924369747899,
+                "height": 66,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">name</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">&nbsp;url</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">&nbsp;email</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">&nbsp;comment</span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 3,
+                        "magnitude": 1
+                      },
+                      {
+                        "id": 176,
+                        "magnitude": -1
+                      }
+                    ],
+                    "minHeight": 20,
+                    "growParent": false,
+                    "padding": 0
+                  }
+                },
+                {
+                  "type": "PositionConstraint",
+                  "PositionConstraint": {
+                    "nodeId": 176,
+                    "px": 0,
+                    "py": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "constraints": {
+          "constraints": [
+            {
+              "type": "HeightConstraint",
+              "HeightConstraint": {
+                "isMin": true,
+                "heightInfo": [
+                  {
+                    "id": 176,
+                    "magnitude": 1
+                  },
+                  {
+                    "id": 179,
+                    "magnitude": 1
+                  }
+                ],
+                "minHeight": 0,
+                "growParent": false,
+                "padding": 0
+              }
+            }
+          ]
+        },
+        "linkMap": []
+      },
+      {
+        "x": 333,
+        "y": 227,
+        "rotation": 0,
+        "id": 2,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.entity_with_attributes",
+        "width": 119,
+        "height": 100,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 5,
+        "hidden": false,
+        "graphic": null,
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 172,
+            "uid": null,
+            "width": 120,
+            "height": 18,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#e2e2e2",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1,
+                "y": 0,
+                "rotation": 0,
+                "id": 173,
+                "uid": null,
+                "width": 120,
+                "height": 18,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px; line-height: 14px;\">P<span style=\"line-height: 14px;\" class=\"\">ost<br></span></span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 173,
+                        "magnitude": 1
+                      }
+                    ],
+                    "minHeight": 0,
+                    "growParent": true,
+                    "padding": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "x": 0,
+            "y": 18,
+            "rotation": 0,
+            "id": 174,
+            "uid": null,
+            "width": 120,
+            "height": 82,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#e2e2e2",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1,
+                "y": 0,
+                "rotation": 0,
+                "id": 175,
+                "uid": null,
+                "width": 120,
+                "height": 82,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">dateTime</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">title</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">body</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">teaser</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">attachment <br></span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 2,
+                        "magnitude": 1
+                      },
+                      {
+                        "id": 172,
+                        "magnitude": -1
+                      }
+                    ],
+                    "minHeight": 20,
+                    "growParent": false,
+                    "padding": 0
+                  }
+                },
+                {
+                  "type": "PositionConstraint",
+                  "PositionConstraint": {
+                    "nodeId": 172,
+                    "px": 0,
+                    "py": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "constraints": {
+          "constraints": [
+            {
+              "type": "HeightConstraint",
+              "HeightConstraint": {
+                "isMin": true,
+                "heightInfo": [
+                  {
+                    "id": 172,
+                    "magnitude": 1
+                  },
+                  {
+                    "id": 175,
+                    "magnitude": 1
+                  }
+                ],
+                "minHeight": 0,
+                "growParent": false,
+                "padding": 0
+              }
+            }
+          ]
+        },
+        "linkMap": []
+      },
+      {
+        "x": 334,
+        "y": 390,
+        "rotation": 0,
+        "id": 8,
+        "uid": "com.gliffy.shape.erd.erd_v1.default.entity_with_attributes",
+        "width": 119,
+        "height": 84,
+        "lockAspectRatio": false,
+        "lockShape": false,
+        "order": 15,
+        "hidden": false,
+        "graphic": null,
+        "children": [
+          {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "id": 180,
+            "uid": null,
+            "width": 120,
+            "height": 18,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#fff2cc",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1,
+                "y": 0,
+                "rotation": 0,
+                "id": 181,
+                "uid": null,
+                "width": 120,
+                "height": 18,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"font-family: Arial; font-size: 12px; line-height: 14px;\">C<span style=\"line-height: 14px;\" class=\"\">omments<br></span></span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 181,
+                        "magnitude": 1
+                      }
+                    ],
+                    "minHeight": 0,
+                    "growParent": true,
+                    "padding": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "x": 0,
+            "y": 18,
+            "rotation": 0,
+            "id": 182,
+            "uid": null,
+            "width": 120,
+            "height": 66,
+            "lockAspectRatio": false,
+            "lockShape": false,
+            "order": "auto",
+            "hidden": false,
+            "graphic": {
+              "type": "Shape",
+              "Shape": {
+                "tid": "com.gliffy.stencil.rectangle.basic_v1",
+                "strokeWidth": 1,
+                "strokeColor": "#000000",
+                "fillColor": "#fff2cc",
+                "gradient": false,
+                "dropShadow": false,
+                "state": null,
+                "shadowX": 4,
+                "shadowY": 4,
+                "opacity": 1
+              }
+            },
+            "children": [
+              {
+                "x": -1,
+                "y": 0,
+                "rotation": 0,
+                "id": 183,
+                "uid": null,
+                "width": 120,
+                "height": 51,
+                "lockAspectRatio": false,
+                "lockShape": false,
+                "order": "auto",
+                "hidden": false,
+                "graphic": {
+                  "type": "Text",
+                  "Text": {
+                    "tid": null,
+                    "valign": "top",
+                    "overflow": "none",
+                    "vposition": "none",
+                    "hposition": "none",
+                    "html": "<p style=\"text-align: center;\"><span style=\"line-height: 15.5px; text-decoration: none;\">&nbsp;</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\">body</span></p><p style=\"text-align: center;\"><span style=\"line-height: 15.5px;\"> date</span></p>",
+                    "paddingLeft": 2,
+                    "paddingRight": 2,
+                    "paddingBottom": 2,
+                    "paddingTop": 2,
+                    "outerPaddingLeft": 6,
+                    "outerPaddingRight": 6,
+                    "outerPaddingBottom": 2,
+                    "outerPaddingTop": 6
+                  }
+                },
+                "children": []
+              }
+            ],
+            "constraints": {
+              "constraints": [
+                {
+                  "type": "HeightConstraint",
+                  "HeightConstraint": {
+                    "isMin": false,
+                    "heightInfo": [
+                      {
+                        "id": 8,
+                        "magnitude": 1
+                      },
+                      {
+                        "id": 180,
+                        "magnitude": -1
+                      }
+                    ],
+                    "minHeight": 20,
+                    "growParent": false,
+                    "padding": 0
+                  }
+                },
+                {
+                  "type": "PositionConstraint",
+                  "PositionConstraint": {
+                    "nodeId": 180,
+                    "px": 0,
+                    "py": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "constraints": {
+          "constraints": [
+            {
+              "type": "HeightConstraint",
+              "HeightConstraint": {
+                "isMin": true,
+                "heightInfo": [
+                  {
+                    "id": 180,
+                    "magnitude": 1
+                  },
+                  {
+                    "id": 183,
+                    "magnitude": 1
+                  }
+                ],
+                "minHeight": 0,
+                "growParent": false,
+                "padding": 0
+              }
+            }
+          ]
+        },
+        "linkMap": []
+      }
+    ],
+    "background": "#ffffff",
+    "width": 580,
+    "height": 474,
+    "maxWidth": 5000,
+    "maxHeight": 5000,
+    "nodeIndex": 210,
+    "autoFit": true,
+    "exportBorder": false,
+    "gridOn": true,
+    "snapToGrid": false,
+    "drawingGuidesOn": false,
+    "pageBreaksOn": false,
+    "printGridOn": false,
+    "printPaper": "LETTER",
+    "printShrinkToFit": false,
+    "printPortrait": true,
+    "shapeStyles": {
+      "com.gliffy.shape.basic.basic_v1.default": {
+        "fill": "#cccccc",
+        "stroke": "#333333",
+        "strokeWidth": 2,
+        "gradient": true,
+        "shadow": true
+      },
+      "com.gliffy.shape.flowchart.flowchart_v1.default": {
+        "fill": "#cccccc",
+        "stroke": "#333333",
+        "strokeWidth": 2,
+        "gradient": true,
+        "shadow": true
+      },
+      "com.gliffy.shpe.erd.erd_v1.default": {
+        "fill": "#D1D1D1",
+        "stroke": "#000000",
+        "strokeWidth": 2
+      }
+    },
+    "lineStyles": {
+      "global": {
+        "stroke": "#000000",
+        "strokeWidth": 1,
+        "orthoMode": 1
+      }
+    },
+    "textStyles": {
+      "global": {
+        "face": "Arial",
+        "size": "12px",
+        "color": "#000000"
+      }
+    },
+    "themeData": null,
+    "viewportType": "default",
+    "fitBB": {
+      "min": {
+        "x": 10,
+        "y": 62
+      },
+      "max": {
+        "x": 579.5,
+        "y": 474
+      }
+    }
+  }
+}

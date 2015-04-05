@@ -15,6 +15,10 @@ class UserControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
+    void "create UserController"() {
+    	when:
+    	controller.create("aa","12345","")
+    	then:
+    	response.name == "aa"   
     }
 }

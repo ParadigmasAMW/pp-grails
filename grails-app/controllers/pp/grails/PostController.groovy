@@ -3,9 +3,10 @@ package pp.grails
 class PostController {
 
 		def defaultAction = 'list'
+		def scaffold = Post
 
     def index = {
-        render("Hello cruel cruel world")
+      //  render("Hello cruel cruel world")
     }
 	
 	def goodbye = {
