@@ -13,7 +13,7 @@ class Post {
 	List<Comment> comments
 
 	static embedded = ['comments']
-	static hasMany = [comments: Comment]
+	static hasMany = [Comments: Comment]
 
 
     static constraints = {

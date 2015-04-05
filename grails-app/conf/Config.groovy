@@ -132,3 +132,5 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**/favicon.ico':                ['permitAll']
 ]
 
+
+
